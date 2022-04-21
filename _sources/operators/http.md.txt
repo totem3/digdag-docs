@@ -139,6 +139,8 @@ When you set those parameters, use [digdag secrets command](https://docs.digdag.
 * **store_content**: BOOLEAN
 
   Whether to store the content of the response. *Default:* `false`.
+  
+  The content will be stored in `${http.last_content}`.
 
 * **headers**: LIST OF KEY-VALUE PAIRS
 
